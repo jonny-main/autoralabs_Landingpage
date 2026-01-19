@@ -12,10 +12,10 @@ export default function CTAForm() {
       <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         {/* Heading */}
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
-          Ready to Transform Your Workflow?
+          Ready to Find Your Hidden Efficiency?
         </h2>
         <p className="text-lg text-primary-100 max-w-2xl mx-auto mb-10">
-          Join 500+ companies already saving time and scaling faster. Start your free trial today.
+          Stop losing hundreds of hours to repetitive tasks. Let us audit your operations and build your roadmap to a scalable future.
         </p>
 
         {/* Form */}
@@ -40,7 +40,7 @@ export default function CTAForm() {
               type="submit"
               className="group inline-flex items-center justify-center gap-2 px-8 py-4 bg-slate-900 hover:bg-slate-800 text-white font-semibold rounded-full transition-all hover:shadow-xl"
             >
-              Try for Free
+              Claim Your Operational Audit
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </button>
           </div>
@@ -48,8 +48,7 @@ export default function CTAForm() {
 
         {/* Benefit Text */}
         <p className="mt-6 text-primary-100 flex items-center justify-center gap-2">
-          <Clock className="w-4 h-4" />
-          <span>Save 10+ hours a week — no credit card required</span>
+          <span>Stop hiring for admin. Start scaling with systems.</span>
         </p>
 
         {/* Trust Badges */}

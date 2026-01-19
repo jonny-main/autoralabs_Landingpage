@@ -45,7 +45,7 @@ export default function Navbar() {
               href="#cta"
               className="inline-flex items-center gap-2 px-5 py-2.5 bg-primary-500 hover:bg-primary-600 text-white text-sm font-semibold rounded-full transition-all hover:shadow-lg hover:shadow-primary-500/30 hover:-translate-y-0.5"
             >
-              Get Started
+              Book an Audit
             </a>
           </div>
 
@@ -77,7 +77,7 @@ export default function Navbar() {
                 onClick={() => setIsOpen(false)}
                 className="inline-flex items-center justify-center gap-2 px-5 py-2.5 bg-primary-500 hover:bg-primary-600 text-white text-sm font-semibold rounded-full transition-all mt-2"
               >
-                Get Started
+                Book an Audit
               </a>
             </div>
           </div>

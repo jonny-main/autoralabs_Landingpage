@@ -1,23 +1,23 @@
-import { UserPlus, Settings, Rocket } from 'lucide-react'
+import { Search, Map, Cog } from 'lucide-react'
 
 const steps = [
   {
     number: '1',
-    icon: UserPlus,
-    title: 'Sign Up in Minutes',
-    description: 'Create your account with just an email. No credit card required, no complex onboarding.',
+    icon: Search,
+    title: 'Deep-Dive Operational Audit',
+    description: 'We identify exactly where manual tasks are draining your time and profit.',
   },
   {
     number: '2',
-    icon: Settings,
-    title: 'Configure Your Workflow',
-    description: 'Connect your existing tools and customize automations to match your unique processes.',
+    icon: Map,
+    title: 'Strategic Automation Roadmap',
+    description: 'Receive a custom blueprint of what to automate first and the expected ROI.',
   },
   {
     number: '3',
-    icon: Rocket,
-    title: 'Launch & Scale',
-    description: 'Go live instantly and watch your efficiency soar. Our team supports you every step.',
+    icon: Cog,
+    title: 'Full-Scale Implementation',
+    description: 'We build the custom systems that transform your back-end into a hands-off machine.',
   },
 ]
 
@@ -31,10 +31,10 @@ export default function Process() {
             How It Works
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 mb-4">
-            Get Started in 3 Simple Steps
+            Your Path to Operational Freedom
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            From signup to results in record time. Here's how easy it is to transform your workflow.
+            A proven process that starts with understanding your business and ends with fully automated systems.
           </p>
         </div>
 

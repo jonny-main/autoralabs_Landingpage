@@ -1,19 +1,17 @@
 import { X, Check } from 'lucide-react'
 
 const oldWayItems = [
-  'Manual processes that waste hours every week',
-  'Scattered tools that don\'t communicate',
-  'Delayed insights lead to missed opportunities',
-  'High overhead costs eating into margins',
-  'Inconsistent results you can\'t rely on',
+  'Hiring more people just to handle paperwork',
+  'Invoices and contracts taking days to process',
+  'Manual errors leading to expensive mistakes',
+  'Team spending 60% of their day on admin tasks',
 ]
 
 const newWayItems = [
-  'Automated workflows save 15+ hours weekly',
-  'Unified platform with seamless data flow',
-  'Real-time analytics for instant decisions',
-  'Reduced costs by up to 60%',
-  'Predictable, measurable outcomes every time',
+  'Scaling revenue while keeping payroll lean',
+  'Automated workflows that process tasks in seconds',
+  '100% data accuracy across all back-end reporting',
+  'Team focused on high-value growth, not data entry',
 ]
 
 export default function Comparison() {

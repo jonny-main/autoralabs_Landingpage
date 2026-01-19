@@ -2,22 +2,19 @@ import { TrendingUp, Users, Clock } from 'lucide-react'
 
 const metrics = [
   {
-    icon: TrendingUp,
-    value: '4.2x',
-    label: 'Average ROI',
-    description: 'Return on investment within first year',
+    icon: Clock,
+    value: '30-50+ Hours',
+    label: 'Average Man-Hours Reclaimed Weekly',
   },
   {
     icon: Users,
-    value: '10K+',
-    label: 'Active Users',
-    description: 'Professionals trust our platform daily',
+    value: '5x Capacity',
+    label: 'Increase throughput without adding payroll',
   },
   {
-    icon: Clock,
-    value: '30-50+ Hours',
-    label: 'Total Man-Hours Reclaimed:',
-    description: 'Manual tasks that can be fully automated',
+    icon: TrendingUp,
+    value: '200% min. ROI',
+    label: 'Expected return on investment in Year 1',
   },
 ]
 
@@ -43,14 +40,9 @@ export default function Metrics() {
                 </div>
 
                 {/* Label */}
-                <div className="text-lg font-semibold text-slate-800 mb-2">
+                <div className="text-base font-medium text-slate-600 leading-relaxed">
                   {metric.label}
                 </div>
-
-                {/* Description */}
-                <p className="text-sm text-slate-600 leading-relaxed">
-                  {metric.description}
-                </p>
               </div>
             </div>
           ))}

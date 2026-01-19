@@ -1,25 +1,25 @@
-import { Zap, Shield, BarChart3, Layers } from 'lucide-react'
+import { FileText, Receipt, BarChart3, UserPlus } from 'lucide-react'
 
 const solutions = [
   {
-    icon: Zap,
-    title: 'Intelligent Automation',
-    description: 'Eliminate repetitive tasks with AI-powered workflows that learn and adapt to your business processes.',
+    icon: FileText,
+    title: 'Automated Contract Creation',
+    description: 'Generate and send error-free legal documents in seconds.',
   },
   {
-    icon: Shield,
-    title: 'Enterprise Security',
-    description: 'Bank-grade encryption and compliance frameworks keep your data protected at every touchpoint.',
+    icon: Receipt,
+    title: 'Hands-Off Invoicing',
+    description: 'Automate your entire billing cycle from trigger to payment.',
   },
   {
     icon: BarChart3,
-    title: 'Advanced Analytics',
-    description: 'Transform raw data into actionable insights with real-time dashboards and predictive modeling.',
+    title: 'Executive Reporting',
+    description: 'Real-time dashboards that pull data across your tools automatically.',
   },
   {
-    icon: Layers,
-    title: 'Seamless Integration',
-    description: 'Connect with 200+ tools in your existing stack through our robust API and native integrations.',
+    icon: UserPlus,
+    title: 'Seamless Onboarding',
+    description: 'Standardize and automate every step of bringing on new clients or hires.',
   },
 ]
 
