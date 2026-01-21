@@ -2,17 +2,19 @@
 
 import { useState } from 'react'
 import { ArrowRight, Clock, Shield, Zap, X, CheckCircle } from 'lucide-react'
+import PhoneInput from 'react-phone-number-input'
+import 'react-phone-number-input/style.css'
 
 export default function CTAForm() {
   const [isModalOpen, setIsModalOpen] = useState(false)
   const [isSubmitted, setIsSubmitted] = useState(false)
   const [isSubmitting, setIsSubmitting] = useState(false)
+  const [phone, setPhone] = useState<string>('')
   const [formData, setFormData] = useState({
     first_name: '',
     last_name: '',
     company_website: '',
     email: '',
-    phone: '',
   })
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -31,6 +33,7 @@ export default function CTAForm() {
         body: new URLSearchParams({
           'form-name': 'audit-request',
           ...formData,
+          phone: phone || '',
         }).toString(),
       })
 
@@ -41,8 +44,8 @@ export default function CTAForm() {
           last_name: '',
           company_website: '',
           email: '',
-          phone: '',
         })
+        setPhone('')
       }
     } catch (error) {
       console.error('Form submission error:', error)
@@ -193,14 +196,12 @@ export default function CTAForm() {
                     required
                     className="w-full px-4 py-3 border border-slate-200 rounded-xl text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                   />
-                  <input
-                    type="tel"
-                    name="phone"
-                    value={formData.phone}
-                    onChange={handleChange}
-                    placeholder="Phone Number"
-                    required
-                    className="w-full px-4 py-3 border border-slate-200 rounded-xl text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
+                  <PhoneInput
+                    international
+                    defaultCountry="US"
+                    value={phone}
+                    onChange={(value) => setPhone(value || '')}
+                    className="phone-input-container"
                   />
                   <input
                     type="url"
@@ -226,6 +227,36 @@ export default function CTAForm() {
           </div>
         </div>
       )}
+
+      <style jsx global>{`
+        .phone-input-container {
+          display: flex;
+          gap: 0.5rem;
+        }
+        .phone-input-container .PhoneInputCountry {
+          padding: 0.75rem;
+          border: 1px solid #e2e8f0;
+          border-radius: 0.75rem;
+          background: white;
+        }
+        .phone-input-container .PhoneInputInput {
+          flex: 1;
+          padding: 0.75rem 1rem;
+          border: 1px solid #e2e8f0;
+          border-radius: 0.75rem;
+          font-size: 1rem;
+          color: #0f172a;
+        }
+        .phone-input-container .PhoneInputInput:focus {
+          outline: none;
+          ring: 2px;
+          ring-color: #3b82f6;
+          border-color: transparent;
+        }
+        .phone-input-container .PhoneInputInput::placeholder {
+          color: #94a3b8;
+        }
+      `}</style>
     </>
   )
 }
