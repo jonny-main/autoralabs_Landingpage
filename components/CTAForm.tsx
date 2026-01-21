@@ -152,7 +152,7 @@ export default function CTAForm() {
                   Claim Your Operational Audit
                 </h3>
                 <p className="text-slate-600 mb-6">
-                  Fill in your details and we'll get in touch to schedule your free audit.
+                  Fill in your details and we'll get in touch to schedule your audit.
                 </p>
 
                 <form
