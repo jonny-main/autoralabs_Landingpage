@@ -1,8 +1,9 @@
 export default function Footer() {
   const navLinks = [
     { name: 'Home', href: '#' },
-    { name: 'Benefits', href: '#benefits' },
-    { name: 'Price', href: '#pricing' },
+    { name: 'Results', href: '#results' },
+    { name: 'Solutions', href: '#solutions' },
+    { name: 'Process', href: '#process' },
   ]
 
   const legalLinks = [

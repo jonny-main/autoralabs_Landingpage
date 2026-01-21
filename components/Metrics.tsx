@@ -20,7 +20,7 @@ const metrics = [
 
 export default function Metrics() {
   return (
-    <section className="relative py-20 lg:py-28 bg-white">
+    <section id="results" className="relative py-20 lg:py-28 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
           {metrics.map((metric, index) => (

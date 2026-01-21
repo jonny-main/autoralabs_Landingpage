@@ -23,7 +23,7 @@ const steps = [
 
 export default function Process() {
   return (
-    <section className="relative py-20 lg:py-28 bg-white">
+    <section id="process" className="relative py-20 lg:py-28 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
@@ -40,9 +40,6 @@ export default function Process() {
 
         {/* Steps */}
         <div className="relative">
-          {/* Connector Line - Desktop */}
-          <div className="hidden lg:block absolute top-6 left-1/2 -translate-x-1/2 w-2/3 h-0.5 bg-gradient-to-r from-primary-200 via-primary-400 to-primary-200" />
-
           <div className="grid md:grid-cols-3 gap-8 lg:gap-12">
             {steps.map((step, index) => (
               <div key={index} className="relative text-center">
