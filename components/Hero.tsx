@@ -50,7 +50,7 @@ export default function Hero() {
               href="#cta"
               className="group inline-flex items-center gap-2 px-8 py-4 bg-primary-500 hover:bg-primary-600 text-white font-semibold rounded-full transition-all hover:shadow-2xl hover:shadow-primary-500/30 hover:-translate-y-1"
             >
-              Book a Call
+              Book an Audit
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </a>
           </div>

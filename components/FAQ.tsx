@@ -5,28 +5,28 @@ import { ChevronDown } from 'lucide-react'
 
 const faqs = [
   {
-    question: 'How much does AutoraLabs cost?',
-    answer: 'We offer flexible pricing plans starting from $29/month for small teams. Enterprise plans with custom features are also available. All plans include a 14-day free trial with no credit card required.',
+    question: 'How does the process work?',
+    answer: 'We start with a deep-dive operational audit to map your manual workflows and identify bottlenecks. We then provide a strategic roadmap before moving into custom development and implementation.',
   },
   {
-    question: 'How long does setup take?',
-    answer: 'Most teams are up and running within 5 minutes. Our intuitive onboarding guides you through connecting your tools, and our support team is available 24/7 if you need assistance.',
+    question: 'Is there an upfront cost?',
+    answer: 'Yes. We charge for the initial audit and strategy phase. This ensures you receive a high-value blueprint and a clear ROI calculation before committing to full-scale automation development.',
   },
   {
-    question: 'Can I integrate with my existing tools?',
-    answer: 'Absolutely! We integrate with 200+ popular tools including Slack, Salesforce, HubSpot, Zapier, and more. Our open API also allows for custom integrations.',
+    question: 'Which tasks are best for automation?',
+    answer: 'We specialize in high-impact back-end tasks such as automated reporting, client onboarding, contract generation, and hands-off invoicing.',
   },
   {
-    question: 'Is my data secure?',
-    answer: 'Security is our top priority. We use bank-grade AES-256 encryption, are SOC 2 Type II certified, and comply with GDPR. Your data is never shared or sold to third parties.',
+    question: 'How does this help me scale without hiring?',
+    answer: 'By replacing manual admin with automated systems, your current team can handle up to 5x more volume, allowing you to grow revenue without increasing your payroll.',
   },
   {
-    question: 'What if I need to cancel?',
-    answer: 'You can cancel anytime with no questions asked. There are no long-term contracts or cancellation fees. We\'ll even help you export your data if needed.',
+    question: 'Will this work with my existing software?',
+    answer: 'Absolutely. We design our solutions to integrate seamlessly with your current tech stack—whether that is your CRM, accounting software, or project management tools.',
   },
   {
-    question: 'Do you offer customer support?',
-    answer: 'Yes! All plans include access to our help center and email support. Pro and Enterprise plans include priority support with dedicated account managers and live chat.',
+    question: 'What kind of ROI can I expect?',
+    answer: 'Most clients reclaim 30-50+ hours of manual labor per week and see a minimum 200% ROI within the first year of implementation.',
   },
 ]
 
@@ -45,7 +45,7 @@ export default function FAQ() {
             Frequently Asked Questions
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Everything you need to know about AutoraLabs. Can't find your answer? Contact us.
+            Learn how our operational audits and strategic automations help you scale without adding headcount.
           </p>
         </div>
 

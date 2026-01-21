@@ -1,20 +1,20 @@
-import { Square, Star, Triangle } from 'lucide-react'
+import { Target, TrendingUp, Shield } from 'lucide-react'
 
 const benefits = [
   {
-    icon: Square,
-    title: '24/7 Availability',
-    description: 'Always-on infrastructure ensures your operations never sleep, with 99.99% uptime guaranteed.',
+    icon: Target,
+    title: 'Audit-Driven Strategy',
+    description: "We don't just plug in tools; we perform a deep-dive diagnostic of your workflows to find exactly where you're losing money.",
   },
   {
-    icon: Star,
-    title: 'Seamless Integration',
-    description: 'Connect in minutes, not months. Our plug-and-play approach means zero disruption to your workflow.',
+    icon: TrendingUp,
+    title: 'Capacity Expansion',
+    description: 'Turn weeks of manual reporting, invoicing, and onboarding into seconds of automated precision.',
   },
   {
-    icon: Triangle,
-    title: 'Maximum Efficiency',
-    description: 'Cut operational costs by 60% while boosting output. Do more with less, automatically.',
+    icon: Shield,
+    title: 'Operational Excellence',
+    description: 'Eliminate the human error that leads to expensive mistakes in contracts and backend data management.',
   },
 ]
 
@@ -31,10 +31,10 @@ export default function Benefits() {
             Why Choose Us
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 mb-4">
-            Built for Performance
+            Strategy First, Tools Second
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Experience the advantages that set us apart from the competition.
+            We focus on understanding your business before implementing solutions.
           </p>
         </div>
 
