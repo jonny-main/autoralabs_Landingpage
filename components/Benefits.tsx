@@ -3,18 +3,18 @@ import { Target, TrendingUp, Shield } from 'lucide-react'
 const benefits = [
   {
     icon: Target,
-    title: 'Audit-Driven Strategy',
-    description: "We don't just plug in tools; we perform a deep-dive diagnostic of your workflows to find exactly where you're losing money.",
+    title: 'Estratégia Orientada por Auditoria',
+    description: 'Não nos limitamos a implementar ferramentas; realizamos um diagnóstico aprofundado dos seus fluxos de trabalho para descobrir exatamente onde está a perder dinheiro.',
   },
   {
     icon: TrendingUp,
-    title: 'Capacity Expansion',
-    description: 'Turn weeks of manual reporting, invoicing, and onboarding into seconds of automated precision.',
+    title: 'Expansão de Capacidade',
+    description: 'Transforme semanas de relatórios manuais, faturação e onboarding em segundos de precisão automatizada.',
   },
   {
     icon: Shield,
-    title: 'Operational Excellence',
-    description: 'Eliminate the human error that leads to expensive mistakes in contracts and backend data management.',
+    title: 'Excelência Operacional',
+    description: 'Elimine o erro humano que leva a erros dispendiosos em contratos e na gestão de dados.',
   },
 ]
 
@@ -28,13 +28,13 @@ export default function Benefits() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <span className="inline-block px-4 py-1.5 bg-primary-100 border border-primary-200 rounded-full text-primary-600 text-sm font-medium mb-4">
-            Why Choose Us
+            Porquê Escolher-nos
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 mb-4">
-            Strategy First, Tools Second
+            Estratégia Primeiro, Ferramentas Depois
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            We focus on understanding your business before implementing solutions.
+            Focamo-nos em compreender o seu negócio antes de implementar soluções.
           </p>
         </div>
 

@@ -69,10 +69,10 @@ export default function CTAForm() {
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           {/* Heading */}
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
-            Ready to Find Your Hidden Efficiency?
+            Pronto para Descobrir a Sua Eficiência Oculta?
           </h2>
           <p className="text-lg text-primary-100 max-w-2xl mx-auto mb-10">
-            Stop losing hundreds of hours to repetitive tasks. Let us audit your operations and build your roadmap to a scalable future.
+            Deixe de perder centenas de horas em tarefas repetitivas. Deixe-nos auditar as suas operações e construir o seu roteiro para um futuro escalável.
           </p>
 
           {/* CTA Button */}
@@ -80,28 +80,28 @@ export default function CTAForm() {
             onClick={() => setIsModalOpen(true)}
             className="group inline-flex items-center justify-center gap-2 px-8 py-4 bg-slate-900 hover:bg-slate-800 text-white font-semibold rounded-full transition-all hover:shadow-xl"
           >
-            Claim Your Operational Audit
+            Solicite a Sua Auditoria Operacional
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </button>
 
           {/* Benefit Text */}
           <p className="mt-6 text-primary-100 flex items-center justify-center gap-2">
-            <span>Stop hiring for admin. Start scaling with systems.</span>
+            <span>Pare de contratar para administração. Comece a escalar com sistemas.</span>
           </p>
 
           {/* Trust Badges */}
           <div className="mt-10 flex flex-wrap items-center justify-center gap-6 text-primary-100">
             <div className="flex items-center gap-2">
               <Shield className="w-5 h-5" />
-              <span className="text-sm">Bank-grade Security</span>
+              <span className="text-sm">Segurança de Nível Bancário</span>
             </div>
             <div className="flex items-center gap-2">
               <Zap className="w-5 h-5" />
-              <span className="text-sm">Setup in 5 minutes</span>
+              <span className="text-sm">Configuração em 5 minutos</span>
             </div>
             <div className="flex items-center gap-2">
               <Clock className="w-5 h-5" />
-              <span className="text-sm">Cancel anytime</span>
+              <span className="text-sm">Cancele a qualquer momento</span>
             </div>
           </div>
         </div>
@@ -133,26 +133,26 @@ export default function CTAForm() {
                   <CheckCircle className="w-8 h-8 text-green-500" />
                 </div>
                 <h3 className="text-2xl font-bold text-slate-900 mb-2">
-                  Thank You!
+                  Obrigado!
                 </h3>
                 <p className="text-slate-600 mb-6">
-                  We've received your request. Our team will reach out shortly to schedule your operational audit.
+                  Recebemos o seu pedido. A nossa equipa entrará em contacto em breve para agendar a sua auditoria operacional.
                 </p>
                 <button
                   onClick={closeModal}
                   className="px-6 py-3 bg-primary-500 hover:bg-primary-600 text-white font-semibold rounded-full transition-colors"
                 >
-                  Close
+                  Fechar
                 </button>
               </div>
             ) : (
               /* Form */
               <>
                 <h3 className="text-2xl font-bold text-slate-900 mb-2">
-                  Claim Your Operational Audit
+                  Solicite a Sua Auditoria Operacional
                 </h3>
                 <p className="text-slate-600 mb-6">
-                  Fill in your details and we'll get in touch to schedule your audit.
+                  Preencha os seus dados e entraremos em contacto para agendar a sua auditoria.
                 </p>
 
                 <form
@@ -173,7 +173,7 @@ export default function CTAForm() {
                       name="first_name"
                       value={formData.first_name}
                       onChange={handleChange}
-                      placeholder="First Name"
+                      placeholder="Primeiro Nome"
                       required
                       className="w-full px-4 py-3 border border-slate-200 rounded-xl text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                     />
@@ -182,7 +182,7 @@ export default function CTAForm() {
                       name="last_name"
                       value={formData.last_name}
                       onChange={handleChange}
-                      placeholder="Last Name"
+                      placeholder="Apelido"
                       required
                       className="w-full px-4 py-3 border border-slate-200 rounded-xl text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                     />
@@ -198,7 +198,7 @@ export default function CTAForm() {
                   />
                   <PhoneInput
                     international
-                    defaultCountry="US"
+                    defaultCountry="PT"
                     value={phone}
                     onChange={(value) => setPhone(value || '')}
                     className="phone-input-container"
@@ -208,7 +208,7 @@ export default function CTAForm() {
                     name="company_website"
                     value={formData.company_website}
                     onChange={handleChange}
-                    placeholder="Company Website"
+                    placeholder="Website da Empresa"
                     className="w-full px-4 py-3 border border-slate-200 rounded-xl text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                   />
                   <button
@@ -216,7 +216,7 @@ export default function CTAForm() {
                     disabled={isSubmitting}
                     className="w-full group inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary-500 hover:bg-primary-600 disabled:bg-primary-400 text-white font-semibold rounded-full transition-all"
                   >
-                    {isSubmitting ? 'Submitting...' : 'Submit'}
+                    {isSubmitting ? 'A enviar...' : 'Enviar'}
                     {!isSubmitting && (
                       <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                     )}

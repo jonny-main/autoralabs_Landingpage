@@ -3,23 +3,23 @@ import { FileText, Receipt, BarChart3, UserPlus } from 'lucide-react'
 const solutions = [
   {
     icon: FileText,
-    title: 'Automated Contract Creation',
-    description: 'Generate and send error-free legal documents in seconds.',
+    title: 'Criação Automática de Contratos',
+    description: 'Gere e envie documentos legais sem erros em segundos.',
   },
   {
     icon: Receipt,
-    title: 'Hands-Off Invoicing',
-    description: 'Automate your entire billing cycle from trigger to payment.',
+    title: 'Faturação Automatizada',
+    description: 'Automatize todo o seu ciclo de faturação, do início ao pagamento.',
   },
   {
     icon: BarChart3,
-    title: 'Executive Reporting',
-    description: 'Real-time dashboards that pull data across your tools automatically.',
+    title: 'Relatórios Executivos',
+    description: 'Dashboards em tempo real que recolhem dados de todas as suas ferramentas automaticamente.',
   },
   {
     icon: UserPlus,
-    title: 'Seamless Onboarding',
-    description: 'Standardize and automate every step of bringing on new clients or hires.',
+    title: 'Onboarding Simplificado',
+    description: 'Padronize e automatize cada etapa da integração de novos clientes ou colaboradores.',
   },
 ]
 
@@ -30,13 +30,13 @@ export default function Solutions() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <span className="inline-block px-4 py-1.5 bg-primary-100 border border-primary-200 rounded-full text-primary-600 text-sm font-medium mb-4">
-            Our Solutions
+            As Nossas Soluções
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 mb-4">
-            Everything You Need to Succeed
+            Tudo o Que Precisa para Ter Sucesso
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Powerful tools designed to solve your biggest challenges and drive measurable growth.
+            Ferramentas poderosas concebidas para resolver os seus maiores desafios e impulsionar um crescimento mensurável.
           </p>
         </div>
 

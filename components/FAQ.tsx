@@ -5,28 +5,28 @@ import { ChevronDown } from 'lucide-react'
 
 const faqs = [
   {
-    question: 'How does the process work?',
-    answer: 'We start with a deep-dive operational audit to map your manual workflows and identify bottlenecks. We then provide a strategic roadmap before moving into custom development and implementation.',
+    question: 'Como funciona o processo?',
+    answer: 'Começamos com uma auditoria operacional aprofundada para mapear os seus fluxos de trabalho manuais e identificar estrangulamentos. De seguida, fornecemos um roteiro estratégico antes de avançar para o desenvolvimento e implementação personalizados.',
   },
   {
-    question: 'Is there an upfront cost?',
-    answer: 'Yes. We charge for the initial audit and strategy phase. This ensures you receive a high-value blueprint and a clear ROI calculation before committing to full-scale automation development.',
+    question: 'Existe um custo inicial?',
+    answer: 'Sim. Cobramos pela fase inicial de auditoria e estratégia. Isto garante que recebe um plano de alto valor e um cálculo claro do ROI antes de se comprometer com o desenvolvimento de automação em larga escala.',
   },
   {
-    question: 'Which tasks are best for automation?',
-    answer: 'We specialize in high-impact back-end tasks such as automated reporting, client onboarding, contract generation, and hands-off invoicing.',
+    question: 'Quais tarefas são melhores para automação?',
+    answer: 'Especializamo-nos em tarefas de alto impacto, como relatórios automatizados, onboarding de clientes, geração de contratos e faturação automatizada.',
   },
   {
-    question: 'How does this help me scale without hiring?',
-    answer: 'By replacing manual admin with automated systems, your current team can handle up to 5x more volume, allowing you to grow revenue without increasing your payroll.',
+    question: 'Como é que isto me ajuda a escalar sem contratar?',
+    answer: 'Ao substituir a administração manual por sistemas automatizados, a sua equipa atual pode lidar com até 5x mais volume, permitindo-lhe aumentar as receitas sem aumentar a folha de pagamentos.',
   },
   {
-    question: 'Will this work with my existing software?',
-    answer: 'Absolutely. We design our solutions to integrate seamlessly with your current tech stack—whether that is your CRM, accounting software, or project management tools.',
+    question: 'Isto funciona com o meu software atual?',
+    answer: 'Absolutamente. Desenhamos as nossas soluções para se integrarem perfeitamente com a sua stack tecnológica atual — seja o seu CRM, software de contabilidade ou ferramentas de gestão de projetos.',
   },
   {
-    question: 'What kind of ROI can I expect?',
-    answer: 'Most clients reclaim 30-50+ hours of manual labor per week and see a minimum 200% ROI within the first year of implementation.',
+    question: 'Que tipo de ROI posso esperar?',
+    answer: 'A maioria dos clientes recupera 30-50+ horas de trabalho manual por semana e vê um ROI mínimo de 200% no primeiro ano de implementação.',
   },
 ]
 
@@ -42,10 +42,10 @@ export default function FAQ() {
             FAQ
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 mb-4">
-            Frequently Asked Questions
+            Perguntas Frequentes
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Learn how our operational audits and strategic automations help you scale without adding headcount.
+            Saiba como as nossas auditorias operacionais e automações estratégicas o ajudam a escalar sem aumentar a equipa.
           </p>
         </div>
 
