@@ -1,30 +1,35 @@
+'use client'
+
 import { X, Check } from 'lucide-react'
-
-const oldWayItems = [
-  'Hiring more people just to handle paperwork',
-  'Invoices and contracts taking days to process',
-  'Manual errors leading to expensive mistakes',
-  'Team spending 60% of their day on admin tasks',
-]
-
-const newWayItems = [
-  'Scaling revenue while keeping payroll lean',
-  'Automated workflows that process tasks in seconds',
-  '100% data accuracy across all back-end reporting',
-  'Team focused on high-value growth, not data entry',
-]
+import { useTranslations } from 'next-intl'
 
 export default function Comparison() {
+  const t = useTranslations('comparison')
+
+  const oldWayItems = [
+    t('oldWayItems.0'),
+    t('oldWayItems.1'),
+    t('oldWayItems.2'),
+    t('oldWayItems.3'),
+  ]
+
+  const newWayItems = [
+    t('newWayItems.0'),
+    t('newWayItems.1'),
+    t('newWayItems.2'),
+    t('newWayItems.3'),
+  ]
+
   return (
     <section className="relative py-20 lg:py-28 bg-white">
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 mb-4">
-            There's a Better Way
+            {t('title')}
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            See how our approach transforms the traditional challenges into competitive advantages.
+            {t('subtitle')}
           </p>
         </div>
 
@@ -38,7 +43,7 @@ export default function Comparison() {
               <div className="w-10 h-10 rounded-full bg-red-100 flex items-center justify-center">
                 <X className="w-5 h-5 text-red-500" />
               </div>
-              <h3 className="text-xl font-bold text-red-600">The Old Way</h3>
+              <h3 className="text-xl font-bold text-red-600">{t('oldWayTitle')}</h3>
             </div>
 
             <ul className="space-y-4">
@@ -61,7 +66,7 @@ export default function Comparison() {
               <div className="w-10 h-10 rounded-full bg-emerald-100 flex items-center justify-center">
                 <Check className="w-5 h-5 text-emerald-500" />
               </div>
-              <h3 className="text-xl font-bold text-emerald-600">The New Way</h3>
+              <h3 className="text-xl font-bold text-emerald-600">{t('newWayTitle')}</h3>
             </div>
 
             <ul className="space-y-4">

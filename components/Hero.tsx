@@ -1,6 +1,11 @@
+'use client'
+
 import { Star, ArrowRight } from 'lucide-react'
+import { useTranslations } from 'next-intl'
 
 export default function Hero() {
+  const t = useTranslations('hero')
+
   return (
     <section className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden bg-gradient-to-b from-primary-50 to-white">
       {/* Background Effects */}
@@ -27,21 +32,21 @@ export default function Hero() {
               ))}
             </div>
             <span className="text-sm text-slate-600 font-medium">
-              Trusted by companies worldwide
+              {t('trusted')}
             </span>
           </div>
 
           {/* Main Heading */}
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-slate-900 leading-[1.1] tracking-tight mb-6">
-            <span className="block">Scale Your Operations</span>
+            <span className="block">{t('titleLine1')}</span>
             <span className="block bg-gradient-to-r from-primary-600 via-primary-500 to-primary-600 bg-clip-text text-transparent">
-            Not Your Headcount
+            {t('titleLine2')}
             </span>
           </h1>
 
           {/* Subheading */}
           <p className="text-lg sm:text-xl text-slate-600 max-w-2xl mx-auto mb-10 leading-relaxed">
-          Find exactly where you’re losing time. We audit your workflows to create a tailored strategy that replaces manual tasks with automated precision.
+          {t('subtitle')}
           </p>
 
           {/* CTA Button */}
@@ -50,7 +55,7 @@ export default function Hero() {
               href="#cta"
               className="group inline-flex items-center gap-2 px-8 py-4 bg-primary-500 hover:bg-primary-600 text-white font-semibold rounded-full transition-all hover:shadow-2xl hover:shadow-primary-500/30 hover:-translate-y-1"
             >
-              Book an Audit
+              {t('cta')}
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </a>
           </div>

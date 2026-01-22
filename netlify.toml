@@ -1,6 +1,10 @@
 [build]
   command = "npm run build"
-  publish = "out"
+  publish = ".next"
 
 [build.environment]
   NODE_VERSION = "18"
+
+# Use Netlify's Next.js runtime for server-side rendering and middleware
+[[plugins]]
+  package = "@netlify/plugin-nextjs"

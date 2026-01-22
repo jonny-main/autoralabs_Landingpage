@@ -1,0 +1,177 @@
+{
+  "metadata": {
+    "title": "AutoraLabs | Outcome-Driven Solutions",
+    "description": "Transform your business with our outcome-driven approach. Achieve measurable results faster."
+  },
+  "nav": {
+    "home": "Home",
+    "results": "Results",
+    "solutions": "Solutions",
+    "process": "Process",
+    "cta": "Book an Audit"
+  },
+  "hero": {
+    "trusted": "Trusted by companies worldwide",
+    "titleLine1": "Scale Your Operations",
+    "titleLine2": "Not Your Headcount",
+    "subtitle": "Find exactly where you're losing time. We audit your workflows to create a tailored strategy that replaces manual tasks with automated precision.",
+    "cta": "Book an Audit"
+  },
+  "metrics": {
+    "items": [
+      { "value": "30-50+ Hours", "label": "Average Man-Hours Reclaimed Weekly" },
+      { "value": "5x Capacity", "label": "Increase throughput without adding payroll" },
+      { "value": "200% min. ROI", "label": "Expected return on investment in Year 1" }
+    ]
+  },
+  "comparison": {
+    "title": "There's a Better Way",
+    "subtitle": "See how our approach transforms the traditional challenges into competitive advantages.",
+    "oldWayTitle": "The Old Way",
+    "newWayTitle": "The New Way",
+    "oldWayItems": [
+      "Hiring more people just to handle paperwork",
+      "Invoices and contracts taking days to process",
+      "Manual errors leading to expensive mistakes",
+      "Team spending 60% of their day on admin tasks"
+    ],
+    "newWayItems": [
+      "Scaling revenue while keeping payroll lean",
+      "Automated workflows that process tasks in seconds",
+      "100% data accuracy across all back-end reporting",
+      "Team focused on high-value growth, not data entry"
+    ]
+  },
+  "solutions": {
+    "badge": "Our Solutions",
+    "title": "Everything You Need to Succeed",
+    "subtitle": "Powerful tools designed to solve your biggest challenges and drive measurable growth.",
+    "items": [
+      {
+        "title": "Automated Contract Creation",
+        "description": "Generate and send error-free legal documents in seconds."
+      },
+      {
+        "title": "Hands-Off Invoicing",
+        "description": "Automate your entire billing cycle from trigger to payment."
+      },
+      {
+        "title": "Executive Reporting",
+        "description": "Real-time dashboards that pull data across your tools automatically."
+      },
+      {
+        "title": "Seamless Onboarding",
+        "description": "Standardize and automate every step of bringing on new clients or hires."
+      }
+    ]
+  },
+  "benefits": {
+    "badge": "Why Choose Us",
+    "title": "Strategy First, Tools Second",
+    "subtitle": "We focus on understanding your business before implementing solutions.",
+    "items": [
+      {
+        "title": "Audit-Driven Strategy",
+        "description": "We don't just plug in tools; we perform a deep-dive diagnostic of your workflows to find exactly where you're losing money."
+      },
+      {
+        "title": "Capacity Expansion",
+        "description": "Turn weeks of manual reporting, invoicing, and onboarding into seconds of automated precision."
+      },
+      {
+        "title": "Operational Excellence",
+        "description": "Eliminate the human error that leads to expensive mistakes in contracts and backend data management."
+      }
+    ]
+  },
+  "process": {
+    "badge": "How It Works",
+    "title": "Your Path to Operational Freedom",
+    "subtitle": "A proven process that starts with understanding your business and ends with fully automated systems.",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Deep-Dive Operational Audit",
+        "description": "We identify exactly where manual tasks are draining your time and profit."
+      },
+      {
+        "number": "2",
+        "title": "Strategic Automation Roadmap",
+        "description": "Receive a custom blueprint of what to automate first and the expected ROI."
+      },
+      {
+        "number": "3",
+        "title": "Full-Scale Implementation",
+        "description": "We build the custom systems that transform your back-end into a hands-off machine."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Find Your Hidden Efficiency?",
+    "subtitle": "Stop losing hundreds of hours to repetitive tasks. Let us audit your operations and build your roadmap to a scalable future.",
+    "button": "Claim Your Operational Audit",
+    "benefit": "Stop hiring for admin. Start scaling with systems.",
+    "trust": {
+      "security": "Bank-grade Security",
+      "setup": "Setup in 5 minutes",
+      "cancel": "Cancel anytime"
+    },
+    "modal": {
+      "successTitle": "Thank You!",
+      "successBody": "We've received your request. Our team will reach out shortly to schedule your operational audit.",
+      "close": "Close",
+      "formTitle": "Claim Your Operational Audit",
+      "formSubtitle": "Fill in your details and we'll get in touch to schedule your audit.",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "companyWebsite": "Company Website",
+      "submit": "Submit",
+      "submitting": "Submitting..."
+    }
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Learn how our operational audits and strategic automations help you scale without adding headcount.",
+    "items": [
+      {
+        "question": "How does the process work?",
+        "answer": "We start with a deep-dive operational audit to map your manual workflows and identify bottlenecks. We then provide a strategic roadmap before moving into custom development and implementation."
+      },
+      {
+        "question": "Is there an upfront cost?",
+        "answer": "Yes. We charge for the initial audit and strategy phase. This ensures you receive a high-value blueprint and a clear ROI calculation before committing to full-scale automation development."
+      },
+      {
+        "question": "Which tasks are best for automation?",
+        "answer": "We specialize in high-impact back-end tasks such as automated reporting, client onboarding, contract generation, and hands-off invoicing."
+      },
+      {
+        "question": "How does this help me scale without hiring?",
+        "answer": "By replacing manual admin with automated systems, your current team can handle up to 5x more volume, allowing you to grow revenue without increasing your payroll."
+      },
+      {
+        "question": "Will this work with my existing software?",
+        "answer": "Absolutely. We design our solutions to integrate seamlessly with your current tech stack, whether that is your CRM, accounting software, or project management tools."
+      },
+      {
+        "question": "What kind of ROI can I expect?",
+        "answer": "Most clients reclaim 30-50+ hours of manual labor per week and see a minimum 200% ROI within the first year of implementation."
+      }
+    ]
+  },
+  "footer": {
+    "nav": {
+      "home": "Home",
+      "results": "Results",
+      "solutions": "Solutions",
+      "process": "Process"
+    },
+    "legal": {
+      "terms": "Terms of Service",
+      "privacy": "Privacy Policy"
+    },
+    "copyright": "© {year} AutoraLabs. All rights reserved."
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "metadata": {
+    "title": "AutoraLabs | Solu\u00e7\u00f5es Orientadas a Resultados",
+    "description": "Transforme o seu neg\u00f3cio com a nossa abordagem orientada a resultados. Alcance resultados mensur\u00e1veis mais r\u00e1pido."
+  },
+  "nav": {
+    "home": "In\u00edcio",
+    "results": "Resultados",
+    "solutions": "Solu\u00e7\u00f5es",
+    "process": "Processo",
+    "cta": "Agendar uma Auditoria"
+  },
+  "hero": {
+    "trusted": "Confiado por empresas em todo o mundo",
+    "titleLine1": "Escale as suas opera\u00e7\u00f5es",
+    "titleLine2": "N\u00e3o o seu headcount",
+    "subtitle": "Identifique exatamente onde est\u00e1 a perder tempo. Auditamos os seus fluxos de trabalho para criar uma estrat\u00e9gia \u00e0 medida que substitui tarefas manuais por precis\u00e3o automatizada.",
+    "cta": "Agendar uma Auditoria"
+  },
+  "metrics": {
+    "items": [
+      { "value": "30-50+ Horas", "label": "Horas-homem m\u00e9dias recuperadas por semana" },
+      { "value": "5x Capacidade", "label": "Aumente a capacidade sem aumentar a massa salarial" },
+      { "value": "200% min. ROI", "label": "Retorno esperado do investimento no primeiro ano" }
+    ]
+  },
+  "comparison": {
+    "title": "H\u00e1 uma forma melhor",
+    "subtitle": "Veja como a nossa abordagem transforma os desafios tradicionais em vantagens competitivas.",
+    "oldWayTitle": "A forma tradicional",
+    "newWayTitle": "A forma moderna",
+    "oldWayItems": [
+      "Contratar mais pessoas apenas para tratar de burocracia",
+      "Faturas e contratos a demorarem dias a ser processados",
+      "Erros manuais que resultam em falhas dispendiosas",
+      "Equipa a gastar 60% do dia em tarefas administrativas"
+    ],
+    "newWayItems": [
+      "Escalar a receita mantendo a massa salarial enxuta",
+      "Fluxos de trabalho automatizados que processam tarefas em segundos",
+      "100% de precis\u00e3o dos dados em todo o reporting de back-office",
+      "Equipa focada no crescimento de alto valor, n\u00e3o na introdu\u00e7\u00e3o de dados"
+    ]
+  },
+  "solutions": {
+    "badge": "As Nossas Solu\u00e7\u00f5es",
+    "title": "Tudo o que precisa para ter sucesso",
+    "subtitle": "Ferramentas robustas concebidas para resolver os seus maiores desafios e impulsionar crescimento mensur\u00e1vel.",
+    "items": [
+      {
+        "title": "Cria\u00e7\u00e3o Automatizada de Contratos",
+        "description": "Gere e envie documentos legais sem erros em segundos."
+      },
+      {
+        "title": "Fatura\u00e7\u00e3o Sem Interven\u00e7\u00e3o",
+        "description": "Automatize todo o ciclo de fatura\u00e7\u00e3o desde o evento at\u00e9 ao pagamento."
+      },
+      {
+        "title": "Reporting Executivo",
+        "description": "Dashboards em tempo real que agregam dados de todas as suas ferramentas automaticamente."
+      },
+      {
+        "title": "Onboarding Sem Fric\u00e7\u00e3o",
+        "description": "Uniformize e automatize cada etapa de onboarding de novos clientes ou colaboradores."
+      }
+    ]
+  },
+  "benefits": {
+    "badge": "Porqu\u00ea escolher-nos",
+    "title": "Estrat\u00e9gia primeiro, ferramentas depois",
+    "subtitle": "Focamo-nos em compreender o seu neg\u00f3cio antes de implementar solu\u00e7\u00f5es.",
+    "items": [
+      {
+        "title": "Estrat\u00e9gia Orientada pela Auditoria",
+        "description": "N\u00e3o nos limitamos a ligar ferramentas; fazemos um diagn\u00f3stico aprofundado dos seus fluxos de trabalho para identificar exatamente onde est\u00e1 a perder dinheiro."
+      },
+      {
+        "title": "Expans\u00e3o de Capacidade",
+        "description": "Transforme semanas de reporting, fatura\u00e7\u00e3o e onboarding manuais em segundos de precis\u00e3o automatizada."
+      },
+      {
+        "title": "Excel\u00eancia Operacional",
+        "description": "Elimine o erro humano que conduz a falhas dispendiosas em contratos e na gest\u00e3o de dados de back-office."
+      }
+    ]
+  },
+  "process": {
+    "badge": "Como Funciona",
+    "title": "O seu caminho para a liberdade operacional",
+    "subtitle": "Um processo comprovado que come\u00e7a por compreender o seu neg\u00f3cio e termina com sistemas totalmente automatizados.",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Auditoria Operacional Aprofundada",
+        "description": "Identificamos exatamente onde as tarefas manuais est\u00e3o a drenar o seu tempo e margem."
+      },
+      {
+        "number": "2",
+        "title": "Roadmap Estrat\u00e9gico de Automa\u00e7\u00e3o",
+        "description": "Receba um plano personalizado do que automatizar primeiro e o ROI esperado."
+      },
+      {
+        "number": "3",
+        "title": "Implementa\u00e7\u00e3o em Escala Total",
+        "description": "Constru\u00edmos os sistemas personalizados que transformam o seu back-office numa m\u00e1quina sem interven\u00e7\u00e3o."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para descobrir a sua efici\u00eancia oculta?",
+    "subtitle": "Pare de perder centenas de horas com tarefas repetitivas. Deixe-nos auditar as suas opera\u00e7\u00f5es e construir o seu roadmap para um futuro escal\u00e1vel.",
+    "button": "Garanta a sua Auditoria Operacional",
+    "benefit": "Pare de contratar para tarefas administrativas. Comece a escalar com sistemas.",
+    "trust": {
+      "security": "Seguran\u00e7a de n\u00edvel banc\u00e1rio",
+      "setup": "Configura\u00e7\u00e3o em 5 minutos",
+      "cancel": "Cancele a qualquer momento"
+    },
+    "modal": {
+      "successTitle": "Obrigado!",
+      "successBody": "Recebemos o seu pedido. A nossa equipa entrar\u00e1 em contacto brevemente para agendar a sua auditoria operacional.",
+      "close": "Fechar",
+      "formTitle": "Garanta a sua Auditoria Operacional",
+      "formSubtitle": "Preencha os seus dados e entraremos em contacto para agendar a sua auditoria.",
+      "firstName": "Nome",
+      "lastName": "Apelido",
+      "email": "Email",
+      "companyWebsite": "Website da empresa",
+      "submit": "Enviar",
+      "submitting": "A enviar..."
+    }
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Perguntas Frequentes",
+    "subtitle": "Saiba como as nossas auditorias operacionais e automa\u00e7\u00f5es estrat\u00e9gicas o ajudam a escalar sem aumentar o headcount.",
+    "items": [
+      {
+        "question": "Como funciona o processo?",
+        "answer": "Come\u00e7amos com uma auditoria operacional aprofundada para mapear os seus fluxos de trabalho manuais e identificar gargalos. Depois fornecemos um roadmap estrat\u00e9gico antes de avan\u00e7ar para desenvolvimento e implementa\u00e7\u00e3o personalizados."
+      },
+      {
+        "question": "Existe um custo inicial?",
+        "answer": "Sim. Cobramos pela fase inicial de auditoria e estrat\u00e9gia. Isto garante que recebe um plano de elevado valor e um c\u00e1lculo claro do ROI antes de avan\u00e7ar para o desenvolvimento de automa\u00e7\u00e3o em escala total."
+      },
+      {
+        "question": "Que tarefas s\u00e3o mais adequadas para automa\u00e7\u00e3o?",
+        "answer": "Especializamo-nos em tarefas de back-office de elevado impacto, como reporting automatizado, onboarding de clientes, gera\u00e7\u00e3o de contratos e fatura\u00e7\u00e3o sem interven\u00e7\u00e3o."
+      },
+      {
+        "question": "Como \u00e9 que isto me ajuda a escalar sem contratar?",
+        "answer": "Ao substituir a administra\u00e7\u00e3o manual por sistemas automatizados, a sua equipa atual consegue suportar at\u00e9 5x mais volume, permitindo crescer a receita sem aumentar a massa salarial."
+      },
+      {
+        "question": "Isto funciona com o meu software atual?",
+        "answer": "Sem d\u00favida. Concebemos as nossas solu\u00e7\u00f5es para integrar de forma fluida com o seu stack tecnol\u00f3gico atual, seja o seu CRM, software de contabilidade ou ferramentas de gest\u00e3o de projetos."
+      },
+      {
+        "question": "Que ROI posso esperar?",
+        "answer": "A maioria dos clientes recupera 30-50+ horas de trabalho manual por semana e v\u00ea um ROI m\u00ednimo de 200% no primeiro ano de implementa\u00e7\u00e3o."
+      }
+    ]
+  },
+  "footer": {
+    "nav": {
+      "home": "In\u00edcio",
+      "results": "Resultados",
+      "solutions": "Solu\u00e7\u00f5es",
+      "process": "Processo"
+    },
+    "legal": {
+      "terms": "Termos de Servi\u00e7o",
+      "privacy": "Pol\u00edtica de Privacidade"
+    },
+    "copyright": "\u00a9 {year} AutoraLabs. Todos os direitos reservados."
+  }
+}
